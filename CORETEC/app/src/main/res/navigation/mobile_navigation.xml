@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_reciclar">
+
+    <fragment
+        android:id="@+id/nav_reciclar"
+        android:name="com.example.coretec.ui.reciclar.Reciclar"
+        android:label="@string/menu_reciclar"
+        tools:layout="@layout/fragment_reciclar" />
+
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.example.coretec.ui.historial.Historial"
+        android:label="@string/menu_historial"
+        tools:layout="@layout/fragment_historial" />
+
+    <fragment
+        android:id="@+id/nav_raee"
+        android:name="com.example.coretec.ui.raee.Raee"
+        android:label="@string/menu_raee"
+        tools:layout="@layout/fragment_raee" />
+
+    <fragment
+        android:id="@+id/nav_porqueReci"
+        android:name="com.example.coretec.ui.porqueReci.PorqueReci"
+        android:label="@string/menu_porqueReci"
+        tools:layout="@layout/fragment_porque_reci" />
+
+    <fragment
+        android:id="@+id/nav_planta"
+        android:name="com.example.coretec.ui.planta.Planta"
+        android:label="@string/menu_planta"
+        tools:layout="@layout/fragment_planta" />
+
+    <fragment
+        android:id="@+id/nav_somos"
+        android:name="com.example.coretec.ui.somos.Somos"
+        android:label="@string/menu_somos"
+        tools:layout="@layout/fragment_somos" />
+
+    <fragment
+        android:id="@+id/nav_contactanos"
+        android:name="com.example.coretec.ui.contactanos.Contactanos"
+        android:label="@string/menu_contactanos"
+        tools:layout="@layout/fragment_contactanos" />
+
+    <fragment
+        android:id="@+id/nav_ajustes"
+        android:name="com.example.coretec.ui.ajustes.Ajustes"
+        android:label="@string/menu_ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+
+    <fragment
+        android:id="@+id/nav_cerrarSesion"
+        android:label="@string/menu_cerrarSesion" />
+
+</navigation>

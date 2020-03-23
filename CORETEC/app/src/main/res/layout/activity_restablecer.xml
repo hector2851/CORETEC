@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/degradado"
+    tools:context=".Restablecer">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ResEmail"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeColor="@color/BordeVerde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/REmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese Correo Electronico"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_correo"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/comic"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="310dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/caja_verde"
+        android:text="Restablecer Contraseña"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/comic"/>
+
+</LinearLayout>

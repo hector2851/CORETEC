@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ui.contactanos.Contactanos">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Telefono para atención"
+        android:gravity="center"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:fontFamily="@font/comic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="(+51) 910866880"
+        android:drawableLeft="@drawable/ic_call"
+        android:paddingLeft="50dp"
+        android:paddingRight="55dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:textSize="19dp"
+        android:textColor="#212121"
+        android:fontFamily="@font/comic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Otros medios de contacto"
+        android:gravity="center"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:fontFamily="@font/comic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="(+51) 910866880"
+        android:drawableLeft="@drawable/ic_whatsapp"
+        android:paddingLeft="50dp"
+        android:paddingRight="55dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:textSize="19dp"
+        android:textColor="#212121"
+        android:fontFamily="@font/comic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:text="maycolft@gmail.com"
+        android:drawableLeft="@drawable/ic_gmail"
+        android:paddingLeft="50dp"
+        android:paddingRight="55dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:textSize="19dp"
+        android:textColor="#212121"
+        android:fontFamily="@font/comic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Horario de atención"
+        android:gravity="center"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:fontFamily="@font/comic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="L-S 09:00hr - 18:00hr"
+        android:drawableLeft="@drawable/ic_clock"
+        android:paddingLeft="50dp"
+        android:paddingRight="55dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:textSize="19dp"
+        android:textColor="#212121"
+        android:fontFamily="@font/comic"/>
+</LinearLayout>

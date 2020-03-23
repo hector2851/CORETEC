@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#EEEEEE"
+    tools:context=".Actividades.Datos">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Ingrese los siguientes datos:"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:background="#bdbdbd"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:fontFamily="@font/comic"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeColor="@color/BordeVerde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextDistrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Distrito"
+            android:fontFamily="@font/comic"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeColor="@color/BordeVerde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextCalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Calle/Avenida/Jiron"
+            android:fontFamily="@font/comic"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeColor="@color/BordeVerde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero/Sector/Parcela"
+            android:fontFamily="@font/comic"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="Entre las calles:"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:background="#bdbdbd"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:fontFamily="@font/comic"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeColor="@color/BordeVerde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextReferencia1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Referencia 1"
+            android:fontFamily="@font/comic"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeColor="@color/BordeVerde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextReferencia2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Referencia 2"
+            android:fontFamily="@font/comic"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="310dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/caja_verde"
+        android:text="Siguiente"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/comic"/>
+
+
+</LinearLayout>

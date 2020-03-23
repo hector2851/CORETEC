@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">CORETEC</string>
+
+    <string name="facebook_app_id">1416190071891429</string>
+    <string name="fb_login_protocol_scheme">fb1416190071891429</string>
+
+    <string name="title_activity_menu">MenuActi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <string name="menu_reciclar">CORETEC</string>
+    <string name="menu_historial">Historial de Reciclaje</string>
+    <string name="menu_raee">¿Que son los RAEE?</string>
+    <string name="menu_porqueReci">¿Porque Reciclar RAEE?</string>
+    <string name="menu_planta">Plantas de tratamiento</string>
+    <string name="menu_somos">Quienes Somos</string>
+    <string name="menu_contactanos">Contactanos</string>
+    <string name="menu_ajustes">Ajustes de Usuario</string>
+    <string name="menu_cerrarSesion">Cerrar Sesion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="RAEE">Segun RAEE PERÚ: Los Residuos de Aparatos Eléctricos y Electrónicos (RAEE), se denomina a cualquier dispositivos que utilice un suministro de energia eléctrica o una bateria, y que haya alcanzado el fin de su vida util. A continuación se presenta sus Categorias:</string>
+    <string name="composicion">Estos residuos son una mezcla compleja de varios materiales, algunos de los cuales son materias primas escasas y valiosas que ameritan ser recuperados (plásticos, metales ferrosos y no ferrosos) y otros (mercurio, cadmio, cromo, plomo, etc.) que si bien no generan problemas durante su uso se convierten en un peligro a la salud y al medio ambiente cuando se liberan bajo condiciones inadecuadas e informales</string>
+    <string name="somos">Concientiza y Recicla Tecnología (CORETEC) es un aplicativo social que ofrece a los ciudadanos, empresas e instituciones una alternativa de reciclaje de sus RAEE (Residuos de Aparatos Eléctricos y Electrónicos) ayudando a disminuir los impactos en el medio ambiente y en la salud.</string>
+    <string name="compromiso">Tenemos un compromiso con el MEDIO AMBIENTE y la salud de la comunidad por cada residuo electrónico que nuestra app logra acopiar y mandar directamente a un centro de acopio autorizado es un residuo menos de productos que no son quemados, enterrados, tirados al mar, exportado de manera ilegal, etc.</string>
+    <string name="razon1">Prevenir la generación de Residuos de Aparatos Eléctricos y Electrónicos (RAEE) y la peligrosidad de los componenetes</string>
+    <string name="razon2">Fomentar la reutilziacion de los Aparatos Eléctricos y Electrónicos, el reciclado y la valorizacion de sus residuos</string>
+    <string name="razon3">Determinar una gestipon adecuada, Tratando de mejorar la eficiencia de la proteccion ambiental</string>
+    <string name="razon4">Mejorar el comportamiento ambiental de todos los agentes que intervienen en el ciclo de vida de los RAEE</string>
+
+    <string name="SAR">Av. los Ciruelos 526. San Juan de Lurigancho</string>
+    <string name="COIPSA">Av. Argentina 5064 - Callao</string>
+    <string name="COMNTEL">Av. Prolongacion Industrial 8032. Los Olivos</string>
+    <string name="AKS">Av. Primavera 120. Santiago de Surco</string>
+    <string name="MIRAFLORES">Av. Jose Larco 400. Miraflores</string>
+    <string name="MOLINA">Av. Ricardo Elias Aparicio 740. La Molina 15026</string>
+    <string name="RECOLEC">Av. Alfredo Mendiola 8034. San Martin de Porres</string>
+</resources>

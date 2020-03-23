@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "912908307078",
+    "firebase_url": "https://coretec-f7258.firebaseio.com",
+    "project_id": "coretec-f7258",
+    "storage_bucket": "coretec-f7258.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912908307078:android:4f46826aed824f1c719f07",
+        "android_client_info": {
+          "package_name": "com.example.coretec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912908307078-bg7smva34p5tbe2q2upa7mll21p8kjbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coretec",
+            "certificate_hash": "6630967d2c90bb926e51781c77dcfb402a33eafa"
+          }
+        },
+        {
+          "client_id": "912908307078-1gsb9cf1n8tv4r6g644rak34pq2ph810.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkthMqo-TmOnxAVrQFxK52uE7DI9lP10c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912908307078-1gsb9cf1n8tv4r6g644rak34pq2ph810.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

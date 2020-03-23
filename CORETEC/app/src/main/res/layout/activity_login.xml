@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/degradado"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/ImgPlaneta"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_planeta" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TxtEmailX"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeColor="@color/BordeVerde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TxtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo Electronico"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_boy"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/comic"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TxtPasswordY"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:boxStrokeColor="@color/BordeVerde"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TxtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/comic" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtOlvido"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu Contraseña?"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:fontFamily="@font/comic"/>
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="310dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/caja_verde"
+        android:text="Iniciar Sesión"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/comic"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/caja_ploma">
+
+        <TextView
+            android:id="@+id/dialog_residuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="Residuo"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:fontFamily="@font/comic"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"
+            android:background="#212121"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cantidad"
+            android:textSize="18dp"
+            android:textColor="#212121"
+            android:fontFamily="@font/comic"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_menos"
+                android:layout_width="47dp"
+                android:layout_height="47dp"
+                android:text="-"
+                android:textSize="35dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/caja_verde" />
+
+            <EditText
+                android:id="@+id/edit_Numero"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/caja_blanca"
+                android:hint="N°"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:fontFamily="@font/comic"/>
+
+            <Button
+                android:id="@+id/btn_mas"
+                android:layout_width="47dp"
+                android:layout_height="47dp"
+                android:textAlignment="center"
+                android:text="+"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/caja_verde" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="MARCA"
+            android:textSize="18dp"
+            android:textColor="#212121"
+            android:fontFamily="@font/comic"/>
+
+        <EditText
+            android:id="@+id/edit_Marca"
+            android:layout_width="190dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/caja_blanca"
+            android:hint="Marca de tu Residuo"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:fontFamily="@font/comic"/>
+        <Button
+            android:id="@+id/btn_agregar"
+            android:layout_width="225dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="Agregar Articulo"
+            android:textSize="17dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/comic"
+            android:background="@drawable/caja_verde"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dialog_residuoImg"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_juguete"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+</RelativeLayout>

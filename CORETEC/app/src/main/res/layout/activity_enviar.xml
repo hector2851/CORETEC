@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#EEEEEE"
+    tools:context=".Actividades.Enviar">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Seguimiento de tus RAEE:"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:background="#bdbdbd"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:fontFamily="@font/comic"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeColor="@color/BordeVerde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:focusable="false"
+            android:clickable="true"
+            android:hint="Fecha de recojo"
+            android:fontFamily="@font/comic"
+            android:drawableRight="@drawable/ic_date"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeColor="@color/BordeVerde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de Contacto"
+            android:fontFamily="@font/comic"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeColor="@color/BordeVerde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextTelf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefono de contacto"
+            android:inputType="number"
+            android:fontFamily="@font/comic"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="310dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/caja_verde"
+        android:text="Siguiente"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/comic"/>
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_caja"/>
+
+
+
+</LinearLayout>
